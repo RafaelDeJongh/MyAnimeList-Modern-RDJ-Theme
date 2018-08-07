@@ -4,11 +4,11 @@ This is a minimalistic flat designed List Style which focuses around showing the
 
 You can find the original Classic Theme here: https://github.com/RafaelDeJongh/MyAnimeList-Classic-RDJ-Theme
 
-Live Example: [animelist/RafaelDeJongh](https://myanimelist.net/animelist/RafaelDeJongh)
+Live Example: [myanimelist.net/animelist/RafaelDeJongh](https://myanimelist.net/animelist/RafaelDeJongh)
 
 ![Preview](http://files.gamebanana.com/bitpit/preview_67ec1.png)
 
-![AnimeListPreview](http://www.rafaeldejongh.com/wp-content/uploads/2016/08/MyAnimeList.jpg)
+![AnimeListPreview](https://files.gamebanana.com/bitpit/modern-mal-rdj-theme.jpg)
 
 ![Features](http://files.gamebanana.com/bitpit/features_38a9e.png)
 
@@ -29,9 +29,9 @@ After the template settings has been set, you can now add the following code to 
 
 <pre>/*Designed by Rafael De Jongh*/
 @import url("//rafaeldejongh.github.io/MyAnimeList-Modern-RDJ-Theme/MAL-RDJ-Theme.css");
-License{/*Profile Liststyle created for MyAnimeList.com by Rafael De Jongh - https://github.com/RafaelDeJongh/MyAnimeList*/}</pre>
+License{/*Profile Liststyle created for MyAnimeList.com by Rafael De Jongh - https://github.com/RafaelDeJongh//MyAnimeList-Modern-RDJ-Theme*/}</pre>
 
-***If @import is disabled then you can also copy and paste the contents from https://rafaeldejongh.github.io/MyAnimeList-Modern-RDJ-Theme/MAL-RDJ-Theme.css into the Custom CSS Section.***
+***If @import is disabled then you can also copy the contents from [the main CSS file here](https://rafaeldejongh.github.io/MyAnimeList-Modern-RDJ-Theme/MAL-RDJ-Theme.css) and paste it into the Custom CSS Section.***
 
 ### This list is developed with the following List Settings:
 
@@ -46,3 +46,7 @@ License{/*Profile Liststyle created for MyAnimeList.com by Rafael De Jongh - htt
 - Image
 
 ### If there are any bugs feel free to let me know!
+
+- You can open up an Issue here on Github
+- Contact me on my MyAnimeList Profile
+- Contact me on info@rafaeldejongh.com
