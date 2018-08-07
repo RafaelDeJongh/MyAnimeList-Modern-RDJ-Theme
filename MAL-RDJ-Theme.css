@@ -250,7 +250,7 @@ td.data.type{
 td.data.progress{
 	bottom:0;
 	right:0;
-	width:calc(65% - 10px);
+	width:calc(60% - 10px);
 	text-align:right!important;
 	padding:8px 10px 10px 0!important
 }
@@ -258,7 +258,7 @@ td.data.progress a:first-child:before{content:"Episodes: ";font-size:12px;font-
 td.data.score{
 	bottom:0;
 	left:0;
-	width:calc(35% - 5px);
+	width:calc(40% - 5px);
 	padding:8px 0 10px 5px!important
 }
 td.data.score a{text-align:left}
