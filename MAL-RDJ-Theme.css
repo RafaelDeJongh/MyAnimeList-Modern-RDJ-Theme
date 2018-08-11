@@ -255,6 +255,7 @@ td.data.progress{
 	padding:8px 10px 10px 0!important
 }
 td.data.progress a:first-child:before{content:"Episodes: ";font-size:12px;font-weight:600}
+td.data.progress span{color:#fff}
 td.data.score{
 	bottom:0;
 	left:0;
