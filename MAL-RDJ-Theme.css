@@ -418,8 +418,9 @@ td.data.finished:before{right:100%;border-left:1.5rem solid transparent}
 	color:#eee;
 	font-weight:700;
 	margin:auto;
+	padding-top:3px;
 	padding-bottom:13px;
-	width:80%!important;
+	width:90%!important;
 }
 #fancybox-inner input[type="button"]{
 	-webkit-appearance:button;
