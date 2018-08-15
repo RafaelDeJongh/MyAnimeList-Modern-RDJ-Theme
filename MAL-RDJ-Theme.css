@@ -414,12 +414,12 @@ td.data.finished:before{right:100%;border-left:1.5rem solid transparent}
 	max-width:900px;
 	margin:auto!important
 }
-.spaceit,div#fancybox-inner div{
+div#fancybox-inner div{
 	color:#eee;
 	font-weight:700;
 	margin:auto;
-	padding-top:3px;
-	padding-bottom:13px;
+	padding-top:2px;
+	padding-bottom:8px;
 	width:90%!important;
 }
 #fancybox-inner input[type="button"]{
