@@ -14,6 +14,19 @@ Required following List Settings:
 - Start/End Dates
 - Image
 
+/*Cover Import
+------------------*/
+@\import "https://malscraper.azurewebsites.net/covers/auto/presets/dataimagelinkafter";
+.data.image .link{position:relative}
+.data.image .link:after{
+	content:"";
+	position:absolute;
+	background-size:cover;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+}
 /*Body
 ------------------*/
 html{
@@ -131,7 +144,9 @@ input,#advanced-options select{
 .list-table .list-table-data .data.status{
 	width:100%;
 	height:2px;
-	padding:0!important
+	padding:0!important;
+	z-index:2;
+	opacity:.5
 }
 .list-table .list-table-data .data.status.completed{background-color:#1E88E5}
 .list-table .list-table-data .data.status.reading, .list-table .list-table-data .data.status.watching{background-color:#4CAF50}
