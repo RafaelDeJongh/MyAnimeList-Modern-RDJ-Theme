@@ -45,7 +45,10 @@ body{
 	height:100%;
 	overflow-x:hidden;
 }
-.initialize-tutorial,.header,.icon-watch,.status-button.dropped{display:none!important}
+.initialize-tutorial,.header,.icon-watch{display:none!important}
+/*Personal
+-----------*/
+/*.status-button.dropped{display:none!important}*/
 /*Container
 ------------------*/
 .list-container{
