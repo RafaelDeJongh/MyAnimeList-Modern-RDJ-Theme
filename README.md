@@ -31,7 +31,7 @@ After the template settings has been set, you can now add the following code to 
 @import url("//rafaeldejongh.github.io/MyAnimeList-Modern-RDJ-Theme/MAL-RDJ-Theme.css");
 License{/*Profile Liststyle created for MyAnimeList.com by Rafael De Jongh - https://github.com/RafaelDeJongh//MyAnimeList-Modern-RDJ-Theme*/}</pre>
 
-***If @import is disabled then you can also copy the contents from [the main CSS file here](https://rafaeldejongh.github.io/MyAnimeList-Modern-RDJ-Theme/MAL-RDJ-Theme.css) and paste it into the Custom CSS Section.***
+***If @import is disabled by MAL then you can either add a backslash "\" between the "@" and the "import" OR copy the whole contents from [the main CSS file here](https://rafaeldejongh.github.io/MyAnimeList-Modern-RDJ-Theme/MAL-RDJ-Theme.css) and paste it into the Custom CSS Section.***
 
 ### This list is developed with the following List Settings:
 
