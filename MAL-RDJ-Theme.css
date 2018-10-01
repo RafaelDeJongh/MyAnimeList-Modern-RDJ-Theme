@@ -143,7 +143,7 @@ input,#advanced-options select{
 }
 /*List Title
 ------------------*/
-.list-table .list-table-header .header-title.number,.list-table .list-table-header .header-title.image,.list-table .list-table-header .header-title.status,.list-table .list-table-header .header-title.started,.list-table .list-table-header .header-title.finished,.list-table .list-table-data .data.title .more,.add-edit-more .add{display:none!important}
+.list-table .list-table-header .header-title.number,.list-table .list-table-header .header-title.image,.list-table .list-table-header .header-title.status,.list-table .list-table-header .header-title.started,.list-table .list-table-header .header-title.finished,.list-table .list-table-data .data.title .more{display:none!important}
 .list-table .list-table-data .data.status{
 	width:100%;
 	height:2px;
@@ -312,6 +312,34 @@ td.data.title{
 	bottom:36px;
 	width:100%;
 	text-align:center
+}
+.list-table .list-table-data .data.title .add-edit-more{
+	color:transparent!important;
+	float:unset!important;
+	overflow:hidden
+}
+.list-table .list-table-data .data.title .add-edit-more .add a{
+	position:absolute;
+	right:-36px;
+	top:33%;
+	color:#eee;
+	padding:4px 12px;
+	background:rgba(0,0,0,.5);
+	border-top-left-radius:50px;
+	border-bottom-left-radius:50px;
+	transition:all .3s ease-in-out
+}
+.list-table .list-table-data .data.title .add-edit-more .add a:hover{
+	right:0;
+	color:#fff;
+	text-shadow:0 0 2px #fff
+}
+.list-table .list-table-data .data.title .add-edit-more .add a:before{
+	content:"\f055";
+	font-family:"FontAwesome";
+	margin-right:8px;
+	font-size:14px!important;
+	font-weight:300
 }
 .add-edit-more,.list-table .list-table-data .data .edit a{
 	color:transparent!important;
