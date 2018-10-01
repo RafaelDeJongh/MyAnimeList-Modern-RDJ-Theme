@@ -45,6 +45,40 @@ License{/*Profile Liststyle created for MyAnimeList.com by Rafael De Jongh - htt
 
 ***If @import is disabled by MAL then you can either add a backslash "&#092;" between the "@" and the "import" where you then also remove the url() part of the import function OR copy the whole contents from [the main CSS file here](https://rafaeldejongh.github.io/MyAnimeList-Modern-RDJ-Theme/MAL-RDJ-Theme.css) and paste it into the Custom CSS Section.***
 
+### Changing the Theme color:
+
+This modern edition of the theme comes with Variable CSS Colors, and while this theme is originally build after my personal corporate identity which still is used as a fallback for unsupportive browsers of CSS Variables, you now can alter most of the colors from this theme!
+
+You can do this by altering the :root{} values, shown below are the default colors which you receive by default:
+
+<pre>
+:root{
+	--main-theme-color:#900;
+	--main-theme-hover-color:#b30000;
+	--main-background-color:#17171a;
+	--main-background-color-dark:#17171b;
+	--scrollbar-background-color:#121212;
+	--sec-background-color:#1a1a1a;
+	--title-background-color:#242425;
+	--title-sec-background-color:#232322;
+	--container-background-color:#222;
+	--container-background-sec-color:#333;
+	--main-transparent-background:rgba(0,0,0,.5);
+	--hover-transparent-background:rgba(0,0,0,.3);
+	--text-color:#eee;
+	--text-color-hover:#fff;
+	--status-button-color:#bbb;
+	--status-button-color-sec:#666;
+	--status-completed-color:1E88E5;
+	--status-watching-color:#4CAF50;
+	--status-onhold-color:#FFC107;
+}
+</pre>
+
+All these colors can be adjusted to your own liking, just make sure that you put the edited root code **AFTER** the "License" part to avoid conflicts and so that it can be properly overwritten without the need of !importants.
+
+I hope you like this addition so you can alter the color set to your own personal liking without going too deep into the code!
+
 ### If there are any bugs feel free to let me know!
 
 - You can open up an Issue here on Github
