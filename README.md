@@ -49,7 +49,7 @@ License{/*Profile Liststyle created for MyAnimeList.com by Rafael De Jongh - htt
 
 This modern edition of the theme comes with Variable CSS Colors, and while this theme is originally build after my personal corporate identity which still is used as a fallback for unsupportive browsers of CSS Variables, you now can alter most of the colors from this theme!
 
-You can do this by altering the :root{} values, shown below are the default colors which you receive by default:
+You can do this by altering the color values in the :root{}. Shown below are the default colors which are set for the theme by default:
 
 <pre>
 :root{
@@ -75,7 +75,7 @@ You can do this by altering the :root{} values, shown below are the default colo
 }
 </pre>
 
-All these colors can be adjusted to your own liking, just make sure that you put the edited root code **AFTER** the "License" part to avoid conflicts and so that it can be properly overwritten without the need of !importants.
+All these colors can be adjusted to your own liking, just make sure that you put the edited root code **AFTER** the "License" part to avoid conflicts, and so that it can be properly overwritten without the need of !importants.
 
 I hope you like this addition so you can alter the color set to your own personal liking without going too deep into the code!
 
