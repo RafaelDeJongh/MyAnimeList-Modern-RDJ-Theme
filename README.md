@@ -21,17 +21,7 @@ This list style offer various features:
 
 ![Installation](http://files.gamebanana.com/bitpit/installation_b6439.png)
 
-For this theme you will need to select the Modern list style type, you can then either choose the default theme OR the Dark Red theme.
-
-After the template settings has been set, you can now add the following code to the "Add Custom CSS" section. 
-
-### The code used for both the Anime & Manga List:
-
-<pre>/*Designed by Rafael De Jongh*/
-@import url("//rafaeldejongh.github.io/MyAnimeList-Modern-RDJ-Theme/MAL-RDJ-Theme.css");
-License{/*Profile Liststyle created for MyAnimeList.com by Rafael De Jongh - https://github.com/RafaelDeJongh//MyAnimeList-Modern-RDJ-Theme*/}</pre>
-
-***If @import is disabled by MAL then you can either add a backslash "&#092;" between the "@" and the "import" OR copy the whole contents from [the main CSS file here](https://rafaeldejongh.github.io/MyAnimeList-Modern-RDJ-Theme/MAL-RDJ-Theme.css) and paste it into the Custom CSS Section.***
+For this theme you will need to select the Modern list style type, you can then either choose the default theme OR the Dark Red theme. Make sure you first configure your list settings before continuing editing the theme.
 
 ### This list is developed with the following List Settings:
 
@@ -44,6 +34,16 @@ License{/*Profile Liststyle created for MyAnimeList.com by Rafael De Jongh - htt
 - Volumes
 - Start/End Dates
 - Image
+
+After the list settings have been set, you can now add the following code to the "Add Custom CSS" section of the theme itself. 
+
+### The code used for both the Anime & Manga List:
+
+<pre>/*Designed by Rafael De Jongh*/
+@import url("//rafaeldejongh.github.io/MyAnimeList-Modern-RDJ-Theme/MAL-RDJ-Theme.css");
+License{/*Profile Liststyle created for MyAnimeList.com by Rafael De Jongh - https://github.com/RafaelDeJongh//MyAnimeList-Modern-RDJ-Theme*/}</pre>
+
+***If @import is disabled by MAL then you can either add a backslash "&#092;" between the "@" and the "import" OR copy the whole contents from [the main CSS file here](https://rafaeldejongh.github.io/MyAnimeList-Modern-RDJ-Theme/MAL-RDJ-Theme.css) and paste it into the Custom CSS Section.***
 
 ### If there are any bugs feel free to let me know!
 
