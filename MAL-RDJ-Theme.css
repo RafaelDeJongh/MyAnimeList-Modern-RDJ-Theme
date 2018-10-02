@@ -518,7 +518,7 @@ div#fancybox-inner div{
 	-webkit-appearance:button;
 	cursor:pointer;
 	background:#900;
-	background:var(--main-transparent-background);
+	background:var(--main-theme-color);
 	border:none;
 	outline:none;
 	background-clip:padding-box;
@@ -529,7 +529,7 @@ div#fancybox-inner div{
 	position:relative;
 	font-weight:600;
 	padding:6px 10px 10px!important;
-	text-shadow:0 1px 0 rgba(0,0,0,.45);
+	text-shadow:0 1px 0 rgba(0,0,0,.5);
 	-webkit-transition:all .1s ease;
 	   -moz-transition:all .1s ease;
 			transition:all .1s ease
@@ -538,8 +538,8 @@ div#fancybox-inner div{
 #fancybox-inner input[type="button"]:focus{
 	background:#b30000;
 	background:var(--main-theme-hover-color);
-	box-shadow:inset 0 -2px 0 rgba(0,0,0,.45);
-	text-shadow:0 1px 0 rgba(0,0,0,.45);
+	box-shadow:inset 0 -2px 0 rgba(0,0,0,.5);
+	text-shadow:0 1px 0 rgba(0,0,0,.5);
 	top:1px
 }
 /*FancyBox Only Discuss*/
