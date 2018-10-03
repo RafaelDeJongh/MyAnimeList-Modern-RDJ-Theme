@@ -453,7 +453,7 @@ td.data.finished:before{right:100%;border-left:1.5rem solid transparent}
 .list-table .list-table-data .data.volume,.list-table .list-table-data .data.chapter{
 	bottom:0;
 	padding:8px 0 10px 0;
-	z-index:5;
+	z-index:8;
 }
 .list-table .list-table-data .data.volume{
 	right:0;
