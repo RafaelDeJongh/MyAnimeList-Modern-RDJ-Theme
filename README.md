@@ -39,11 +39,17 @@ After the list settings have been set, you can now add the following code to the
 
 ### The code used for both the Anime & Manga List:
 
-<pre>/*Designed by Rafael De Jongh*/
-@import url("//rafaeldejongh.github.io/MyAnimeList-Modern-RDJ-Theme/MAL-RDJ-Theme.css");
-License{/*Profile Liststyle created for MyAnimeList.com by Rafael De Jongh - https://github.com/RafaelDeJongh//MyAnimeList-Modern-RDJ-Theme*/}</pre>
+<pre>
+/*Designed by Rafael De Jongh*/
+@\import "https://malscraper.azurewebsites.net/covers/anime/YOURUSERNAME/presets/dataimagelinkafter";
+@\import "https://malscraper.azurewebsites.net/covers/manga/YOURUSERNAME/presets/dataimagelinkafter";
+@\import "//rafaeldejongh.github.io/MyAnimeList-Modern-RDJ-Theme/MAL-RDJ-Theme.css";
+License{/*Profile Liststyle created for MyAnimeList.com by Rafael De Jongh - https://github.com/RafaelDeJongh//MyAnimeList-Modern-RDJ-Theme*/}
+</pre>
 
-***If @import is disabled by MAL then you can either add a backslash "&#092;" between the "@" and the "import" where you then also remove the url() part of the import function OR copy the whole contents from [the main CSS file here](https://rafaeldejongh.github.io/MyAnimeList-Modern-RDJ-Theme/MAL-RDJ-Theme.css) and paste it into the Custom CSS Section.***
+**Make sure to change the "YOURUSERNAME" part from the malscraper @import so the covers will be generated for your profile personally, do note that your profile has to be public to be scrapable. If the scraper does not work you can use the pre-generated anime/manga covers from the "cover" folder instead.**
+
+***Because MAL currently disabled @imports, we bypass this by escaping it with a backslash. In case this does not work then copy the whole contents from [the main CSS file here](https://rafaeldejongh.github.io/MyAnimeList-Modern-RDJ-Theme/MAL-RDJ-Theme.css) and paste it into the Custom CSS Section.***
 
 ### Changing the Theme color:
 

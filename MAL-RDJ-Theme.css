@@ -1,4 +1,4 @@
-/*Modern Profile Liststyle created for MyAnimeList.com by Rafael De Jongh - www.myanimelist.net/profile/RafaelDeJongh - https://github.com/RafaelDeJongh/MyAnimeList
+/*Modern Profile Liststyle created for MyAnimeList.com by Rafael De Jongh - www.myanimelist.net/profile/RafaelDeJongh - https://github.com/RafaelDeJongh/MyAnimeList-Modern-RDJ-Theme
 
 Modern MAL Template Style
 =======================================
@@ -37,9 +37,8 @@ Required following List Settings:
 	--status-watching-color:#4CAF50;
 	--status-onhold-color:#FFC107;
 }
-/*Cover Import
+/*HD Covers
 ------------------*/
-@\import "https://malscraper.azurewebsites.net/covers/auto/presets/dataimagelinkafter";
 .data.image .link{position:relative}
 .data.image .link:after{
 	content:"";
