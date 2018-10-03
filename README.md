@@ -41,8 +41,8 @@ After the list settings have been set, you can now add the following code to the
 
 <pre>
 /*Designed by Rafael De Jongh*/
-@\import "https://malscraper.azurewebsites.net/covers/anime/YOURUSERNAME/presets/dataimagelinkafter";
-@\import "https://malscraper.azurewebsites.net/covers/manga/YOURUSERNAME/presets/dataimagelinkafter";
+@\import "//malscraper.azurewebsites.net/covers/anime/YOURUSERNAME/presets/dataimagelinkafter";
+@\import "//malscraper.azurewebsites.net/covers/manga/YOURUSERNAME/presets/dataimagelinkafter";
 @\import "//rafaeldejongh.github.io/MyAnimeList-Modern-RDJ-Theme/MAL-RDJ-Theme.css";
 License{/*Profile Liststyle created for MyAnimeList.com by Rafael De Jongh - https://github.com/RafaelDeJongh//MyAnimeList-Modern-RDJ-Theme*/}
 </pre>
