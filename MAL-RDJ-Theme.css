@@ -92,13 +92,14 @@ body[data-owner-id="1319317"] .status-button.dropped{display:none!important}
 	top:6%;
 	z-index:9;
 	background:rgba(0,0,0,.5);
+	background:var(--main-transparent-background);
 	border-top-left-radius:20px;
 	border-bottom-left-radius:20px;
 	transition:all .3s ease-in-out;
 	cursor:help
 }
 .header:hover{right:0}
-.header:hover .header-menu.other:before{color:#fff}
+.header:hover .header-menu.other:before{color:#fff;color:var(--text-color-hover)}
 .header-menu.other{right:22px}
 .header-menu.other:before{
 	content:"\f05a";
