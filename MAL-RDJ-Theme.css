@@ -357,6 +357,7 @@ td.data.title{
 	width:100%;
 	text-align:center
 }
+.list-table .list-table-data .data.title .link{padding:0 6px}
 .list-table .list-table-data .data.title .add-edit-more{
 	color:transparent!important;
 	float:unset!important;
