@@ -69,7 +69,7 @@ body{
 	height:100%;
 	overflow-x:hidden;
 }
-.initialize-tutorial,.header,.icon-watch{display:none!important}
+.initialize-tutorial,.icon-watch,.header .header-title{display:none!important}
 /*Personal
 -----------*/
 body[data-owner-id="1319317"] .status-button.dropped{display:none!important}
@@ -84,6 +84,33 @@ body[data-owner-id="1319317"] .status-button.dropped{display:none!important}
 }
 /*Header
 ------------------*/
+.header{
+	min-width:310px;
+	width:auto;
+	position:absolute;
+	right:-270px;
+	top:6%;
+	z-index:9;
+	background:rgba(0,0,0,.5);
+	border-top-left-radius:20px;
+	border-bottom-left-radius:20px;
+	transition:all .3s ease-in-out;
+	cursor:help
+}
+.header:hover{right:0}
+.header:hover .header-menu.other:before{color:#fff}
+.header-menu.other{right:22px}
+.header-menu.other:before{
+	content:"\f05a";
+	font-family:"FontAwesome";
+	margin-right:8px;
+	font-size:16px;
+	font-weight:300;
+	position:absolute;
+	left:-30px;
+	top:9px;
+	transition:all .3s ease
+}
 .cover-block,.cover-block .image-container{
 	padding:0;
 	width:100%;
