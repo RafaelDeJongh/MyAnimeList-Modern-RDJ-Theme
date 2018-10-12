@@ -69,7 +69,7 @@ body{
 	height:100%;
 	overflow-x:hidden;
 }
-.initialize-tutorial,.icon-watch,.header .header-title{display:none!important}
+.initialize-tutorial,.icon-watch,.header .header-title,body[data-owner="1"] .header{display:none!important}
 /*Personal
 -----------*/
 body[data-owner-id="1319317"] .status-button.dropped{display:none!important}
@@ -216,7 +216,7 @@ input,#advanced-options select{
 	opacity:.5
 }
 .list-table .list-table-data .data.status.completed{background-color:#1E88E5;background-color:var(--status-completed-color)}
-.list-table .list-table-data .data.status.reading, .list-table .list-table-data .data.status.watching{background-color:#4CAF50;background-color:var(--status-watching-color)}
+.list-table .list-table-data .data.status.reading,.list-table .list-table-data .data.status.watching{background-color:#4CAF50;background-color:var(--status-watching-color)}
 .list-table .list-table-data .data.status.onhold{background-color:#FFC107;background-color:var(--status-onhold-color)}
 .list-unit .list-status-title{
 	width:100%;
@@ -698,10 +698,41 @@ input,#advanced-options select{
 @media screen and (max-width:1586px){.list-item{width:16.66666%}}
 @media screen and (max-width:1361px){.list-item{width:20%}}
 @media screen and (max-width:1136px){.list-item{width:25%}}
-@media screen and (max-width:911px){.list-item{width:33.33333%}}
-@media screen and (max-width:800px){.status-menu-container .status-menu .status-button{font-size:1.8vw}}
-@media screen and (max-width:685px){.list-item{width:50%}}
-@media screen and (max-width:510px){.list-item{width:100%}}
+@media screen and (max-width:911px){
+	.list-item{width:33.33333%}
+	.status-menu-container .status-menu .status-button{display:block}
+	.status-menu-container{height:auto}
+	.status-menu-container.fixed{position:relative}
+	.search-container{display:none}
+	.status-menu-container.fixed + div.list-block{margin:auto}
+}
+@media screen and (min-width:686px){
+	.list-item .list-table-data,
+	.list-item .list-table-data .data.image,
+	.list-item .list-table-data .data.image .image,
+	.list-table .list-table-data .data.image a{
+		max-height:35.8vh
+	}
+}
+@media screen and (max-width:685px){
+	.header{top:2%}
+	.list-item{width:50%}
+	.list-item .list-table-data,
+	.list-item .list-table-data .data.image,
+	.list-item .list-table-data .data.image .image,
+	.list-table .list-table-data .data.image a{
+		max-height:43vh
+	}
+}
+@media screen and (max-width:510px){
+	.list-item{width:100%}
+	.list-item .list-table-data,
+	.list-item .list-table-data .data.image,
+	.list-item .list-table-data .data.image .image,
+	.list-table .list-table-data .data.image a{
+		max-height:unset
+	}
+}
 /*Links
 -----------*/
 a,a:visited{
