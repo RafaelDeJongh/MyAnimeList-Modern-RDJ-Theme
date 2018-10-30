@@ -475,7 +475,7 @@ td.data.finished:before{right:100%;border-left:1.5rem solid transparent}
 .list-table .list-table-data:hover .data.image:before{
 	transition:all .3s ease;
 	background:rgba(0,0,0,.3);
-	background:var(--hover-transparent-background);
+	background:var(--hover-transparent-background)
 }
 .list-table select{
 	border-radius:6px;
@@ -485,11 +485,11 @@ td.data.finished:before{right:100%;border-left:1.5rem solid transparent}
 	background:var(--hover-transparent-background);
 	color:#fff;
 	color:var(--text-color-hover);
-	padding:2px 4px
+	padding:1px 4px 0
 }
 .list-table select option{
 	background:#17171a;
-	background:var(--main-background-color);
+	background:var(--main-background-color)
 }
 /*Manga*/
 .list-table .list-table-data .data.volume,.list-table .list-table-data .data.chapter{
